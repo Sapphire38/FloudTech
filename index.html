@@ -1,0 +1,812 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FLOUDTECH</title>
+    <link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css"/>    
+    <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css" integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
+    <link rel="stylesheet" href="./style.css">
+    <link rel="icon" href="./src/8.webp">
+</head>
+<body id="body">
+    
+   
+<div class="container-fluid fix">
+    <div class="row ">
+        <div class="col-md-5 nav-40per">
+            <nav id="nav" class="navbar navbar-expand-lg navbar-dark navbar-light bg-white">
+                <a class="navbar-brand" href="#">
+                  <img src="./src/Logo_1.webp" alt="" class="navbar-icon-ft no-phone">
+                  <img src="./src/Logo_1_white.webp" class="navbar-icon-ft no-screen" alt="">
+                </a>
+                <button class="navbar-toggler" id="nav-btn" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                  <span class="navbar-toggler-icon"></span>
+                </button>
+                <div  class="collapse navbar-collapse mr-auto" id="navbarNavDropdown">
+                  <ul class="navbar-nav ml-auto">
+                    <li class="nav-item active"><a id="btn-nos" class="nav-link" href="#home">NOSOTROS</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" id="btn-serv" href="#servicios">SERVICIOS</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" id="btn-impact" href="#impact">IMPACTO</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" id="btn-client" href="#friends">CLIENTES</a>
+                      </li>
+                  </ul>
+                </div>
+              </nav>
+        </div>
+        <div class="col-md-7 nav-60per no-phone n-phone">
+
+            <div class="container-networks  ml-4">
+          
+                <a href="" >
+                    <button class="btn-network">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" fill="currentColor" class="bi bi-linkedin" viewBox="0 0 16 16">
+                            <path d="M0 1.146C0 .513.526 0 1.175 0h13.65C15.474 0 16 .513 16 1.146v13.708c0 .633-.526 1.146-1.175 1.146H1.175C.526 16 0 15.487 0 14.854V1.146zm4.943 12.248V6.169H2.542v7.225h2.401zm-1.2-8.212c.837 0 1.358-.554 1.358-1.248-.015-.709-.52-1.248-1.342-1.248-.822 0-1.359.54-1.359 1.248 0 .694.521 1.248 1.327 1.248h.016zm4.908 8.212V9.359c0-.216.016-.432.08-.586.173-.431.568-.878 1.232-.878.869 0 1.216.662 1.216 1.634v3.865h2.401V9.25c0-2.22-1.184-3.252-2.764-3.252-1.274 0-1.845.7-2.165 1.193v.025h-.016a5.54 5.54 0 0 1 .016-.025V6.169h-2.4c.03.678 0 7.225 0 7.225h2.4z"/>
+                        </svg>
+                    </button>
+                </a>
+
+                <a href="" >
+                    <button class="btn-network">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" fill="currentColor" class="bi bi-twitter" viewBox="0 0 16 16">
+                            <path d="M5.026 15c6.038 0 9.341-5.003 9.341-9.334 0-.14 0-.282-.006-.422A6.685 6.685 0 0 0 16 3.542a6.658 6.658 0 0 1-1.889.518 3.301 3.301 0 0 0 1.447-1.817 6.533 6.533 0 0 1-2.087.793A3.286 3.286 0 0 0 7.875 6.03a9.325 9.325 0 0 1-6.767-3.429 3.289 3.289 0 0 0 1.018 4.382A3.323 3.323 0 0 1 .64 6.575v.045a3.288 3.288 0 0 0 2.632 3.218 3.203 3.203 0 0 1-.865.115 3.23 3.23 0 0 1-.614-.057 3.283 3.283 0 0 0 3.067 2.277A6.588 6.588 0 0 1 .78 13.58a6.32 6.32 0 0 1-.78-.045A9.344 9.344 0 0 0 5.026 15z"/>
+                          </svg>
+                    </button>
+                </a>
+
+                <a href="" >
+                    <button class="btn-network">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" fill="currentColor" class="bi bi-instagram" viewBox="0 0 16 16">
+                            <path d="M8 0C5.829 0 5.556.01 4.703.048 3.85.088 3.269.222 2.76.42a3.917 3.917 0 0 0-1.417.923A3.927 3.927 0 0 0 .42 2.76C.222 3.268.087 3.85.048 4.7.01 5.555 0 5.827 0 8.001c0 2.172.01 2.444.048 3.297.04.852.174 1.433.372 1.942.205.526.478.972.923 1.417.444.445.89.719 1.416.923.51.198 1.09.333 1.942.372C5.555 15.99 5.827 16 8 16s2.444-.01 3.298-.048c.851-.04 1.434-.174 1.943-.372a3.916 3.916 0 0 0 1.416-.923c.445-.445.718-.891.923-1.417.197-.509.332-1.09.372-1.942C15.99 10.445 16 10.173 16 8s-.01-2.445-.048-3.299c-.04-.851-.175-1.433-.372-1.941a3.926 3.926 0 0 0-.923-1.417A3.911 3.911 0 0 0 13.24.42c-.51-.198-1.092-.333-1.943-.372C10.443.01 10.172 0 7.998 0h.003zm-.717 1.442h.718c2.136 0 2.389.007 3.232.046.78.035 1.204.166 1.486.275.373.145.64.319.92.599.28.28.453.546.598.92.11.281.24.705.275 1.485.039.843.047 1.096.047 3.231s-.008 2.389-.047 3.232c-.035.78-.166 1.203-.275 1.485a2.47 2.47 0 0 1-.599.919c-.28.28-.546.453-.92.598-.28.11-.704.24-1.485.276-.843.038-1.096.047-3.232.047s-2.39-.009-3.233-.047c-.78-.036-1.203-.166-1.485-.276a2.478 2.478 0 0 1-.92-.598 2.48 2.48 0 0 1-.6-.92c-.109-.281-.24-.705-.275-1.485-.038-.843-.046-1.096-.046-3.233 0-2.136.008-2.388.046-3.231.036-.78.166-1.204.276-1.486.145-.373.319-.64.599-.92.28-.28.546-.453.92-.598.282-.11.705-.24 1.485-.276.738-.034 1.024-.044 2.515-.045v.002zm4.988 1.328a.96.96 0 1 0 0 1.92.96.96 0 0 0 0-1.92zm-4.27 1.122a4.109 4.109 0 1 0 0 8.217 4.109 4.109 0 0 0 0-8.217zm0 1.441a2.667 2.667 0 1 1 0 5.334 2.667 2.667 0 0 1 0-5.334z"/>
+                          </svg>
+                    </button>
+                </a>
+            </div>
+
+
+            <div class="container-btn-contact">
+               <a href="#footer"><button class="btn btn-contacUs">CONTACTO</button></a>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="container-fluid" id="home">
+    <div class="row">
+
+      <div class="container-fluid" id="particles-js"></div> 
+
+      <div class="col-md-5 h-100vh">
+        <div class="home-40per">
+          <h1 class="text-home">
+            Innovando<br> marcas <br>
+            en el mundo <br>
+            con tecnología <br>
+            digital <br>
+          </h1>
+          <h6 class="text-s-home">Somos FloudTech, una agencia comprometida en crear e innovar marcas disprutivas que generen impacto.</h6>    
+          <div class="btn-contain">
+           <a class="btn btn-home-bt" href="#servicios"> <button class="nothing">NOSOTROS</button></a> <a class="btn btn-home-bt w-80" href="#footer"><button class="nothing" >CONTACTO</button></a>
+          </div>
+        </div>
+            
+            
+        <div class="conteiner-logos no-phone">
+          <div class="swiper mySwiper">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide"><img src="./src/clients-home/GoCARS.webp" class="img-fluid" alt=""></div>
+              <div class="swiper-slide"><img src="./src/clients-home/HDC.webp" class="img-fluid" alt=""></div>
+              <div class="swiper-slide"><img src="./src/clients-home/Getbit.webp" class="img-fluid" alt=""></div>
+              <div class="swiper-slide"><img src="./src/clients-home/Mesa_de_trabajo_1_copia_2.webp" class="img-fluid" alt=""></div>
+            </div>
+          </div>
+        </div>
+
+        <div class="conteiner-logos no-screen">
+          <div class="swiper mySwiper">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide"><img src="./src/icons-white/GoCARS.webp" class="img-fluid" alt=""></div>
+              <div class="swiper-slide"><img src="./src/icons-white/hidraulica DC.webp" class="img-fluid" alt=""></div>
+              <div class="swiper-slide"><img src="./src/icons-white/GETBIT.webp" class="img-fluid" alt=""></div>
+              <div class="swiper-slide"><img src="./src/icons-white/trainhub.webp" class="img-fluid" alt=""></div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-7 home-60per no-phone"></div>
+
+    </div>
+</div>
+
+<div id="servicios">
+
+  <div id="carouselExampleControls" class="carousel slide carousel-fade no-phone" data-ride="carousel">
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <div class="container-fluid" id="whoAre">
+            <div class="row">
+              <div class="col-md-5 wA-h100L ">
+                <div class="box-content">
+                  <div class="conteiner-fluid">
+                    <div class="row">
+                      <div class="col-md-4 box-items" >
+                          
+                          <a class="" href="#carouselExampleControls" role="button" data-slide="prev">
+                            <svg class="svg-prev" xmlns="http://www.w3.org/2000/svg" width="40" height="40" fill="currentColor" class="bi bi-arrow-left-circle-fill" viewBox="0 0 16 16">
+                              <path d="M8 0a8 8 0 1 0 0 16A8 8 0 0 0 8 0zm3.5 7.5a.5.5 0 0 1 0 1H5.707l2.147 2.146a.5.5 0 0 1-.708.708l-3-3a.5.5 0 0 1 0-.708l3-3a.5.5 0 1 1 .708.708L5.707 7.5H11.5z"/>
+                            </svg>
+                          </a>
+
+                      </div>
+                        <div class="col-md-8 box-text">
+                          <h6 class="text-card-float">La presencia en medios digitales se volvió un factor fundamental en los negocios. Desde nuestra agencia queremos ayudarte...</h6>
+                        </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+
+                <div class="col-md-7 wA-h100R">
+                  <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" fill="currentColor" class="bi bi-arrow-right-circle-fill" viewBox="0 0 16 16">
+                      <path d="M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0zM4.5 7.5a.5.5 0 0 0 0 1h5.793l-2.147 2.146a.5.5 0 0 0 .708.708l3-3a.5.5 0 0 0 0-.708l-3-3a.5.5 0 1 0-.708.708L10.293 7.5H4.5z"/>
+                    </svg>
+                  </a>
+                  <h6 class="h-t-w"> <span style="opacity:0;">________</span>SERVICIOS</h6>
+                  <h2 class="title-who"><span class="lineL">_____</span><span style="opacity:0;">tu</span>Developer</h2>
+                  <h1 class="text-w">Programación inteligente <br> para empresas</h1>
+                  <h5 class="text-who">La programación se convirtio en la herramienta fundamental del futuro. El equipo de desarrollo de FloudTech llevara a cabo las ideas de proyectos que tenias en mente asesorando y brindándote soporte de principio y fin. Trabajamos con todas las tecnologías y al mismo tiempo lo impulsamos por medio del UX UI y Social Media.</h5>
+                  <a href="#footer"> <button class="btn btn-home-bt">CONTACTO</button> </a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="carousel-item">
+          <div class="container-fluid" id="whoAre">
+              <div class="row">
+                <div class="col-md-5 wA-h100L2 ">
+                  <div class="box-content">
+                    <div class="conteiner-fluid">
+                      <div class="row">
+                        <div class="col-md-4 box-items box-2" >
+                          
+                          <a class="" href="#carouselExampleControls" role="button" data-slide="prev">
+                            <svg class="svg-prev" xmlns="http://www.w3.org/2000/svg" width="40" height="40" fill="currentColor" class="bi bi-arrow-left-circle-fill" viewBox="0 0 16 16">
+                              <path d="M8 0a8 8 0 1 0 0 16A8 8 0 0 0 8 0zm3.5 7.5a.5.5 0 0 1 0 1H5.707l2.147 2.146a.5.5 0 0 1-.708.708l-3-3a.5.5 0 0 1 0-.708l3-3a.5.5 0 1 1 .708.708L5.707 7.5H11.5z"/>
+                            </svg>
+                          </a>
+
+                        </div>
+                        <div class="col-md-8 box-text">
+                           <h6 class="text-card-float">La programación se convirtio en la herramienta fundamental del futuro. El equipo de desarrollo de FloudTech llevara a cabo las ideas de proyectos...</h6>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-7 wA-h100R">
+                  <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" fill="currentColor" class="bi bi-arrow-right-circle-fill" viewBox="0 0 16 16">
+                      <path d="M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0zM4.5 7.5a.5.5 0 0 0 0 1h5.793l-2.147 2.146a.5.5 0 0 0 .708.708l3-3a.5.5 0 0 0 0-.708l-3-3a.5.5 0 1 0-.708.708L10.293 7.5H4.5z"/>
+                    </svg>
+                  </a>
+                  <h6 class="h-t-w"> <span style="opacity:0;">________</span>SERVICIOS</h6>
+                  <h2 class="title-who"><span class="lineL">_____</span><span style="opacity:0;">tu</span>UX UI</h2>
+                  <h1 class="text-w">Experiencias e interfaces de usuarios <br> eficientes</h1>
+                  <h5 class="text-who">Adaptar tus plataformas con la experiencia e interfaz correcta puede provocar un cambio 180 en tu negocio. Nuestro equipo de UX UI esta especializado en crear y reinventar plataformas que esten adaptadas verdaderamente para el usuario de tal manera que genere satisfacción al utilizarlas. Trabajamos en webs, apps, sistemas, etc.</h5>
+                  <a href="#footer"> <button class="btn btn-home-bt">CONTACTO</button> </a>
+              </div>
+              </div>
+          </div>
+        </div>
+      
+        <div class="carousel-item">
+          <div class="container-fluid" id="whoAre">
+              <div class="row">
+                <div class="col-md-5 wA-h100L3 ">
+                  <div class="box-content">
+                    <div class="conteiner-fluid">
+                      <div class="row">
+                        <div class="col-md-4 box-items box-3" >
+                          
+                          <a class="" href="#carouselExampleControls" role="button" data-slide="prev">
+                            <svg class="svg-prev" xmlns="http://www.w3.org/2000/svg" width="40" height="40" fill="currentColor" class="bi bi-arrow-left-circle-fill" viewBox="0 0 16 16">
+                              <path d="M8 0a8 8 0 1 0 0 16A8 8 0 0 0 8 0zm3.5 7.5a.5.5 0 0 1 0 1H5.707l2.147 2.146a.5.5 0 0 1-.708.708l-3-3a.5.5 0 0 1 0-.708l3-3a.5.5 0 1 1 .708.708L5.707 7.5H11.5z"/>
+                            </svg>
+                          </a>
+
+                        </div>
+                        <div class="col-md-8 box-text">
+                          <h6 class="text-card-float">Adaptar tus plataformas con la experiencia e interfaz correcta puede provocar un cambio 180 en tu negocio...</h6>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-7 wA-h100R">
+                  <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" fill="currentColor" class="bi bi-arrow-right-circle-fill" viewBox="0 0 16 16">
+                      <path d="M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0zM4.5 7.5a.5.5 0 0 0 0 1h5.793l-2.147 2.146a.5.5 0 0 0 .708.708l3-3a.5.5 0 0 0 0-.708l-3-3a.5.5 0 1 0-.708.708L10.293 7.5H4.5z"/>
+                    </svg>
+                  </a>
+                  <h6 class="h-t-w"> <span style="opacity:0;">________</span>SERVICIOS</h6>
+                  <h2 class="title-who"><span class="lineL">_____</span><span style="opacity:0;">tu</span>Social Media</h2>
+                  <h1 class="text-w">Empresas con presencia <br> en medios sociales</h1>
+                  <h5 class="text-who">La presencia en medios digitales se volvió un factor fundamental en los negocios. Desde nuestra agencia queremos ayudarte a que tu marca pueda introducirse de manera integral en todos los canales digitales y asi utilizarlos a tu beneficio. Trabajamos con plataformas como Facebook, Instagram, Linkedin, Google My Business, etc.</h5>
+                  <a href="#footer"> <button class="btn btn-home-bt">CONTACTO</button> </a>
+              </div>
+              </div>
+          </div>
+        </div>
+
+      </div>
+    
+  
+  </div>
+
+  <div class="container-fluid no-screen">
+    <div class="row">
+      
+      <div class="col-md-7 p-text-services">
+        <h6 class="h-t-w"></span>SERVICIOS</h6>
+        <h2 class="title-who"></span>Developer</h2>
+        <h1 class="text-w">Programación inteligente <br> para empresas</h1>
+        <h5 class="text-who">La programación se convirtio en la herramienta fundamental del futuro. El equipo de desarrollo de FloudTech llevara a cabo las ideas de proyectos que tenias en mente asesorando y brindándote soporte de principio y fin. Trabajamos con todas las tecnologías y al mismo tiempo lo impulsamos por medio del UX UI y Social Media.</h5>
+    </div>
+      <div class="col-md-12 contenedor-w100">
+          <img src="./src/devsMobile.webp" class="img-services" alt="">
+      </div>
+
+      <div class="col-md-7 p-text-services">
+        <h2 class="title-who">UX UI</h2>
+        <h1 class="text-w">Experiencias e interfaces de usuarios  eficientes</h1>
+        <h5 class="text-who">Adaptar tus plataformas con la experiencia e interfaz correcta puede provocar un cambio 180 en tu negocio. Nuestro equipo de UX UI esta especializado en crear y reinventar plataformas que esten adaptadas verdaderamente para el usuario de tal manera que genere satisfacción al utilizarlas. Trabajamos en webs, apps, sistemas, etc.</h5>
+    </div>
+
+    <div class="col-md-12 contenedor-w100">
+      <img src="./src/uxUimobe.webp" class="img-services" alt="">
+    </div>
+
+    <div class="col-md-7 p-text-services">
+      <h2 class="title-who">Social Media</h2>
+      <h1 class="text-w">Empresas con presencia <br> en medios sociales</h1>
+      <h5 class="text-who">La presencia en medios digitales se volvió un factor fundamental en los negocios. Desde nuestra agencia queremos ayudarte a que tu marca pueda introducirse de manera integral en todos los canales digitales y asi utilizarlos a tu beneficio. Trabajamos con plataformas como Facebook, Instagram, Linkedin, Google My Business, etc.</h5>
+    </div>
+    <div class="col-md-12 contenedor-w100">
+      <img src="./src/socialMediaMobile.webp" class="img-services" alt="">
+    </div>
+
+    </div>
+  </div>
+
+</div>
+
+<div class="container-fluid " id="impact">
+    <div class="row">
+      <div class="col-md-1"></div>
+    
+        <div class="col-md-6 p-text-services impact-h pb-0">
+          
+            <div class="ft-50">
+                <h6 class="h-t-w"><span class="lineN" style="opacity:0;">________</span>IMPACTO</h6>
+                <h2 class="title-who"><span class="lineL">_____</span><span class="lineN" style="opacity:0;">tu</span>Impacto internacional</h2>
+                <h1 class="text-w">Una startup que da  soporte <br> a diferentes empresas  en todo el mundo</h1>
+            </div>
+            <div class="fb-50">
+              <div class="contenedor-cards no-padding">
+                <div class="col-md-4 impact-h no-screen world">
+                  <img src="./src/pngegg.webp" class="img-fluid" alt="">
+              </div>
+             
+              
+                <div class="card card-f">
+                    <div class="img-part">
+                      <img src="./src/clients-home/GetbitColor.webp" class="img-Impact" alt="">
+                    </div>
+                    <div class="text-part">
+                      <h6 class="subTitle-card">GetBit</h6>
+                      <h6 class="sub-subT">Republica Dominicana</span></h6>
+                      <h6 class="text-card">GetBit se ha ganado nuestro corazon. En el pasado trabajamos el rediseño de su app, mientras que actualmente estamos impulsando la marca por medios de canales digitales.</h6>
+                    </div>
+                </div>
+                <div class="card ">
+                  <div class="img-part">
+                    <img src="./src/clients-home/trainhubColor.webp" class="img-Impact" alt="">
+                  </div>
+                  <div class="text-part">
+                    <h6 class="subTitle-card">Trainhub</h6>
+                      <h6 class="sub-subT">Toronto, Canada</h6>
+                    <h6 class="text-card">Junto a TrainHub estamos trabajando en el UX UI de su plataforma de educación internacional. Esta plataforma funciona en más de 30 paises</h6>
+                  </div>
+              </div>
+                <div class="card">
+                  <div class="img-part">
+                      <img src="./src/clients-home/Logo_mi_barrio_color.webp" class="img-Impact" alt="">
+                  </div>  
+                  <div class="text-part">
+                    <h6 class="subTitle-card">Mi Barrio</h6>
+                      <h6 class="sub-subT">Madrid, España</h6>
+                    <h6 class="text-card">Mi Barrio forma parte de nuestros clientes más antiguos el área de UX UI.. Su plataforma funciona como un directorio general orientado solo para barrios de madrid.</h6>
+                  </div>
+                </div>
+
+              </div>
+            </div>
+        </div>
+        <div class="col-md-4 impact-h no-phone world">
+            <img src="./src/pngegg.webp" class="img-fluid" alt="">
+        </div>
+    </div>
+</div>
+
+<div class="container-fluid " id="equipo">
+  <div class="row col-reverse">
+    
+    <div class="col-md-8 p-text-services pt-0">
+      <div class="swiper mySwipers">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide center-cont-emp">
+            <img src="./src/clientes/Joa.webp" alt="" class="img-empl">
+            <h4 class="name-empl">Joaquin Infante</h4>
+            <h6 class="puest-empl">Project Manager, UX UI</h6>
+            <h6 class="text-desc-empl">Joaquin es Fundador de FloudTech Argentina. Actualmente viene gestionando proyectos y coordinando equipos. Su tarea es fundamental para que el trabajo en equipo sea eficiente.</h6>
+            <div class="net-empl">
+              <a href="" >
+                <button class="btn-networkB">
+                    <svg class="svg-b" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-linkedin" viewBox="0 0 16 16">
+                        <path d="M0 1.146C0 .513.526 0 1.175 0h13.65C15.474 0 16 .513 16 1.146v13.708c0 .633-.526 1.146-1.175 1.146H1.175C.526 16 0 15.487 0 14.854V1.146zm4.943 12.248V6.169H2.542v7.225h2.401zm-1.2-8.212c.837 0 1.358-.554 1.358-1.248-.015-.709-.52-1.248-1.342-1.248-.822 0-1.359.54-1.359 1.248 0 .694.521 1.248 1.327 1.248h.016zm4.908 8.212V9.359c0-.216.016-.432.08-.586.173-.431.568-.878 1.232-.878.869 0 1.216.662 1.216 1.634v3.865h2.401V9.25c0-2.22-1.184-3.252-2.764-3.252-1.274 0-1.845.7-2.165 1.193v.025h-.016a5.54 5.54 0 0 1 .016-.025V6.169h-2.4c.03.678 0 7.225 0 7.225h2.4z"/>
+                    </svg>
+                </button>
+            </a>
+      
+            <a href="" >
+                <button class="btn-networkB">
+                    <svg class="svg-b" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-twitter" viewBox="0 0 16 16">
+                        <path d="M5.026 15c6.038 0 9.341-5.003 9.341-9.334 0-.14 0-.282-.006-.422A6.685 6.685 0 0 0 16 3.542a6.658 6.658 0 0 1-1.889.518 3.301 3.301 0 0 0 1.447-1.817 6.533 6.533 0 0 1-2.087.793A3.286 3.286 0 0 0 7.875 6.03a9.325 9.325 0 0 1-6.767-3.429 3.289 3.289 0 0 0 1.018 4.382A3.323 3.323 0 0 1 .64 6.575v.045a3.288 3.288 0 0 0 2.632 3.218 3.203 3.203 0 0 1-.865.115 3.23 3.23 0 0 1-.614-.057 3.283 3.283 0 0 0 3.067 2.277A6.588 6.588 0 0 1 .78 13.58a6.32 6.32 0 0 1-.78-.045A9.344 9.344 0 0 0 5.026 15z"/>
+                      </svg>
+                </button>
+            </a>
+      
+            <a href="" >
+                <button class="btn-networkB">
+                    <svg class="svg-b" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-instagram" viewBox="0 0 16 16">
+                        <path d="M8 0C5.829 0 5.556.01 4.703.048 3.85.088 3.269.222 2.76.42a3.917 3.917 0 0 0-1.417.923A3.927 3.927 0 0 0 .42 2.76C.222 3.268.087 3.85.048 4.7.01 5.555 0 5.827 0 8.001c0 2.172.01 2.444.048 3.297.04.852.174 1.433.372 1.942.205.526.478.972.923 1.417.444.445.89.719 1.416.923.51.198 1.09.333 1.942.372C5.555 15.99 5.827 16 8 16s2.444-.01 3.298-.048c.851-.04 1.434-.174 1.943-.372a3.916 3.916 0 0 0 1.416-.923c.445-.445.718-.891.923-1.417.197-.509.332-1.09.372-1.942C15.99 10.445 16 10.173 16 8s-.01-2.445-.048-3.299c-.04-.851-.175-1.433-.372-1.941a3.926 3.926 0 0 0-.923-1.417A3.911 3.911 0 0 0 13.24.42c-.51-.198-1.092-.333-1.943-.372C10.443.01 10.172 0 7.998 0h.003zm-.717 1.442h.718c2.136 0 2.389.007 3.232.046.78.035 1.204.166 1.486.275.373.145.64.319.92.599.28.28.453.546.598.92.11.281.24.705.275 1.485.039.843.047 1.096.047 3.231s-.008 2.389-.047 3.232c-.035.78-.166 1.203-.275 1.485a2.47 2.47 0 0 1-.599.919c-.28.28-.546.453-.92.598-.28.11-.704.24-1.485.276-.843.038-1.096.047-3.232.047s-2.39-.009-3.233-.047c-.78-.036-1.203-.166-1.485-.276a2.478 2.478 0 0 1-.92-.598 2.48 2.48 0 0 1-.6-.92c-.109-.281-.24-.705-.275-1.485-.038-.843-.046-1.096-.046-3.233 0-2.136.008-2.388.046-3.231.036-.78.166-1.204.276-1.486.145-.373.319-.64.599-.92.28-.28.546-.453.92-.598.282-.11.705-.24 1.485-.276.738-.034 1.024-.044 2.515-.045v.002zm4.988 1.328a.96.96 0 1 0 0 1.92.96.96 0 0 0 0-1.92zm-4.27 1.122a4.109 4.109 0 1 0 0 8.217 4.109 4.109 0 0 0 0-8.217zm0 1.441a2.667 2.667 0 1 1 0 5.334 2.667 2.667 0 0 1 0-5.334z"/>
+                      </svg>
+                </button>
+            </a>
+            </div>
+            
+          </div>
+
+          <div class="swiper-slide center-cont-emp">
+            <img src="./src/clientes/sabrina.webp" alt="" class="img-empl">
+            <h4 class="name-empl">Sabrina Baroni</h4>
+            <h6 class="puest-empl">Social Media Manager</h6>
+            <h6 class="text-desc-empl">Sabrina cumple un rol fundamental dentro de la agencia. Su tarea de Social Media Manager es muy importante a la hora de generar la estrategia adecuada para las empresas en los medios digitales</h6>
+            <div class="net-empl">
+              <a href="" >
+                <button class="btn-networkB">
+                    <svg class="svg-b" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-linkedin" viewBox="0 0 16 16">
+                        <path d="M0 1.146C0 .513.526 0 1.175 0h13.65C15.474 0 16 .513 16 1.146v13.708c0 .633-.526 1.146-1.175 1.146H1.175C.526 16 0 15.487 0 14.854V1.146zm4.943 12.248V6.169H2.542v7.225h2.401zm-1.2-8.212c.837 0 1.358-.554 1.358-1.248-.015-.709-.52-1.248-1.342-1.248-.822 0-1.359.54-1.359 1.248 0 .694.521 1.248 1.327 1.248h.016zm4.908 8.212V9.359c0-.216.016-.432.08-.586.173-.431.568-.878 1.232-.878.869 0 1.216.662 1.216 1.634v3.865h2.401V9.25c0-2.22-1.184-3.252-2.764-3.252-1.274 0-1.845.7-2.165 1.193v.025h-.016a5.54 5.54 0 0 1 .016-.025V6.169h-2.4c.03.678 0 7.225 0 7.225h2.4z"/>
+                    </svg>
+                </button>
+            </a>
+      
+            <a href="" >
+                <button class="btn-networkB">
+                    <svg class="svg-b" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-twitter" viewBox="0 0 16 16">
+                        <path d="M5.026 15c6.038 0 9.341-5.003 9.341-9.334 0-.14 0-.282-.006-.422A6.685 6.685 0 0 0 16 3.542a6.658 6.658 0 0 1-1.889.518 3.301 3.301 0 0 0 1.447-1.817 6.533 6.533 0 0 1-2.087.793A3.286 3.286 0 0 0 7.875 6.03a9.325 9.325 0 0 1-6.767-3.429 3.289 3.289 0 0 0 1.018 4.382A3.323 3.323 0 0 1 .64 6.575v.045a3.288 3.288 0 0 0 2.632 3.218 3.203 3.203 0 0 1-.865.115 3.23 3.23 0 0 1-.614-.057 3.283 3.283 0 0 0 3.067 2.277A6.588 6.588 0 0 1 .78 13.58a6.32 6.32 0 0 1-.78-.045A9.344 9.344 0 0 0 5.026 15z"/>
+                      </svg>
+                </button>
+            </a>
+      
+            <a href="" >
+                <button class="btn-networkB">
+                    <svg class="svg-b" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-instagram" viewBox="0 0 16 16">
+                        <path d="M8 0C5.829 0 5.556.01 4.703.048 3.85.088 3.269.222 2.76.42a3.917 3.917 0 0 0-1.417.923A3.927 3.927 0 0 0 .42 2.76C.222 3.268.087 3.85.048 4.7.01 5.555 0 5.827 0 8.001c0 2.172.01 2.444.048 3.297.04.852.174 1.433.372 1.942.205.526.478.972.923 1.417.444.445.89.719 1.416.923.51.198 1.09.333 1.942.372C5.555 15.99 5.827 16 8 16s2.444-.01 3.298-.048c.851-.04 1.434-.174 1.943-.372a3.916 3.916 0 0 0 1.416-.923c.445-.445.718-.891.923-1.417.197-.509.332-1.09.372-1.942C15.99 10.445 16 10.173 16 8s-.01-2.445-.048-3.299c-.04-.851-.175-1.433-.372-1.941a3.926 3.926 0 0 0-.923-1.417A3.911 3.911 0 0 0 13.24.42c-.51-.198-1.092-.333-1.943-.372C10.443.01 10.172 0 7.998 0h.003zm-.717 1.442h.718c2.136 0 2.389.007 3.232.046.78.035 1.204.166 1.486.275.373.145.64.319.92.599.28.28.453.546.598.92.11.281.24.705.275 1.485.039.843.047 1.096.047 3.231s-.008 2.389-.047 3.232c-.035.78-.166 1.203-.275 1.485a2.47 2.47 0 0 1-.599.919c-.28.28-.546.453-.92.598-.28.11-.704.24-1.485.276-.843.038-1.096.047-3.232.047s-2.39-.009-3.233-.047c-.78-.036-1.203-.166-1.485-.276a2.478 2.478 0 0 1-.92-.598 2.48 2.48 0 0 1-.6-.92c-.109-.281-.24-.705-.275-1.485-.038-.843-.046-1.096-.046-3.233 0-2.136.008-2.388.046-3.231.036-.78.166-1.204.276-1.486.145-.373.319-.64.599-.92.28-.28.546-.453.92-.598.282-.11.705-.24 1.485-.276.738-.034 1.024-.044 2.515-.045v.002zm4.988 1.328a.96.96 0 1 0 0 1.92.96.96 0 0 0 0-1.92zm-4.27 1.122a4.109 4.109 0 1 0 0 8.217 4.109 4.109 0 0 0 0-8.217zm0 1.441a2.667 2.667 0 1 1 0 5.334 2.667 2.667 0 0 1 0-5.334z"/>
+                      </svg>
+                </button>
+            </a>
+            </div>
+            
+          </div>
+
+          <div class="swiper-slide center-cont-emp">
+            <img src="./src/clientes/juani.webp" alt="" class="img-empl">
+            <h4 class="name-empl">Juani Garcia</h4>
+            <h6 class="puest-empl">Developer</h6>
+            <h6 class="text-desc-empl">Juani es nuestro genio en la programación. Su capacidad para crear plataformas por medio de código para cualquier necesidad de nuestros clientes es super importante.</h6>
+            <div class="net-empl">
+              <a href="" >
+                <button class="btn-networkB">
+                    <svg class="svg-b" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-linkedin" viewBox="0 0 16 16">
+                        <path d="M0 1.146C0 .513.526 0 1.175 0h13.65C15.474 0 16 .513 16 1.146v13.708c0 .633-.526 1.146-1.175 1.146H1.175C.526 16 0 15.487 0 14.854V1.146zm4.943 12.248V6.169H2.542v7.225h2.401zm-1.2-8.212c.837 0 1.358-.554 1.358-1.248-.015-.709-.52-1.248-1.342-1.248-.822 0-1.359.54-1.359 1.248 0 .694.521 1.248 1.327 1.248h.016zm4.908 8.212V9.359c0-.216.016-.432.08-.586.173-.431.568-.878 1.232-.878.869 0 1.216.662 1.216 1.634v3.865h2.401V9.25c0-2.22-1.184-3.252-2.764-3.252-1.274 0-1.845.7-2.165 1.193v.025h-.016a5.54 5.54 0 0 1 .016-.025V6.169h-2.4c.03.678 0 7.225 0 7.225h2.4z"/>
+                    </svg>
+                </button>
+            </a>
+      
+            <a href="" >
+                <button class="btn-networkB">
+                    <svg class="svg-b" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-twitter" viewBox="0 0 16 16">
+                        <path d="M5.026 15c6.038 0 9.341-5.003 9.341-9.334 0-.14 0-.282-.006-.422A6.685 6.685 0 0 0 16 3.542a6.658 6.658 0 0 1-1.889.518 3.301 3.301 0 0 0 1.447-1.817 6.533 6.533 0 0 1-2.087.793A3.286 3.286 0 0 0 7.875 6.03a9.325 9.325 0 0 1-6.767-3.429 3.289 3.289 0 0 0 1.018 4.382A3.323 3.323 0 0 1 .64 6.575v.045a3.288 3.288 0 0 0 2.632 3.218 3.203 3.203 0 0 1-.865.115 3.23 3.23 0 0 1-.614-.057 3.283 3.283 0 0 0 3.067 2.277A6.588 6.588 0 0 1 .78 13.58a6.32 6.32 0 0 1-.78-.045A9.344 9.344 0 0 0 5.026 15z"/>
+                      </svg>
+                </button>
+            </a>
+      
+            <a href="" >
+                <button class="btn-networkB">
+                    <svg class="svg-b" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-instagram" viewBox="0 0 16 16">
+                        <path d="M8 0C5.829 0 5.556.01 4.703.048 3.85.088 3.269.222 2.76.42a3.917 3.917 0 0 0-1.417.923A3.927 3.927 0 0 0 .42 2.76C.222 3.268.087 3.85.048 4.7.01 5.555 0 5.827 0 8.001c0 2.172.01 2.444.048 3.297.04.852.174 1.433.372 1.942.205.526.478.972.923 1.417.444.445.89.719 1.416.923.51.198 1.09.333 1.942.372C5.555 15.99 5.827 16 8 16s2.444-.01 3.298-.048c.851-.04 1.434-.174 1.943-.372a3.916 3.916 0 0 0 1.416-.923c.445-.445.718-.891.923-1.417.197-.509.332-1.09.372-1.942C15.99 10.445 16 10.173 16 8s-.01-2.445-.048-3.299c-.04-.851-.175-1.433-.372-1.941a3.926 3.926 0 0 0-.923-1.417A3.911 3.911 0 0 0 13.24.42c-.51-.198-1.092-.333-1.943-.372C10.443.01 10.172 0 7.998 0h.003zm-.717 1.442h.718c2.136 0 2.389.007 3.232.046.78.035 1.204.166 1.486.275.373.145.64.319.92.599.28.28.453.546.598.92.11.281.24.705.275 1.485.039.843.047 1.096.047 3.231s-.008 2.389-.047 3.232c-.035.78-.166 1.203-.275 1.485a2.47 2.47 0 0 1-.599.919c-.28.28-.546.453-.92.598-.28.11-.704.24-1.485.276-.843.038-1.096.047-3.232.047s-2.39-.009-3.233-.047c-.78-.036-1.203-.166-1.485-.276a2.478 2.478 0 0 1-.92-.598 2.48 2.48 0 0 1-.6-.92c-.109-.281-.24-.705-.275-1.485-.038-.843-.046-1.096-.046-3.233 0-2.136.008-2.388.046-3.231.036-.78.166-1.204.276-1.486.145-.373.319-.64.599-.92.28-.28.546-.453.92-.598.282-.11.705-.24 1.485-.276.738-.034 1.024-.044 2.515-.045v.002zm4.988 1.328a.96.96 0 1 0 0 1.92.96.96 0 0 0 0-1.92zm-4.27 1.122a4.109 4.109 0 1 0 0 8.217 4.109 4.109 0 0 0 0-8.217zm0 1.441a2.667 2.667 0 1 1 0 5.334 2.667 2.667 0 0 1 0-5.334z"/>
+                      </svg>
+                </button>
+            </a>
+            </div>
+            
+          </div>
+
+          <div class="swiper-slide center-cont-emp">
+            <img src="./src/clientes/andrina.webp" alt="" class="img-empl">
+            <h4 class="name-empl">Andrina Britos</h4>
+            <h6 class="puest-empl">Diseñadora Gráfica</h6>
+            <h6 class="text-desc-empl">Acompañando a Brenda, también tenemos la creatividad y alegría de Andrina. Su capacidad de identificar las necesidades del cliente en el área de diseño, son fundamental para nuestra empresa.</h6>
+            <div class="net-empl">
+              <a href="" >
+                <button class="btn-networkB">
+                    <svg class="svg-b" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-linkedin" viewBox="0 0 16 16">
+                        <path d="M0 1.146C0 .513.526 0 1.175 0h13.65C15.474 0 16 .513 16 1.146v13.708c0 .633-.526 1.146-1.175 1.146H1.175C.526 16 0 15.487 0 14.854V1.146zm4.943 12.248V6.169H2.542v7.225h2.401zm-1.2-8.212c.837 0 1.358-.554 1.358-1.248-.015-.709-.52-1.248-1.342-1.248-.822 0-1.359.54-1.359 1.248 0 .694.521 1.248 1.327 1.248h.016zm4.908 8.212V9.359c0-.216.016-.432.08-.586.173-.431.568-.878 1.232-.878.869 0 1.216.662 1.216 1.634v3.865h2.401V9.25c0-2.22-1.184-3.252-2.764-3.252-1.274 0-1.845.7-2.165 1.193v.025h-.016a5.54 5.54 0 0 1 .016-.025V6.169h-2.4c.03.678 0 7.225 0 7.225h2.4z"/>
+                    </svg>
+                </button>
+            </a>
+      
+            <a href="" >
+                <button class="btn-networkB">
+                    <svg class="svg-b" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-twitter" viewBox="0 0 16 16">
+                        <path d="M5.026 15c6.038 0 9.341-5.003 9.341-9.334 0-.14 0-.282-.006-.422A6.685 6.685 0 0 0 16 3.542a6.658 6.658 0 0 1-1.889.518 3.301 3.301 0 0 0 1.447-1.817 6.533 6.533 0 0 1-2.087.793A3.286 3.286 0 0 0 7.875 6.03a9.325 9.325 0 0 1-6.767-3.429 3.289 3.289 0 0 0 1.018 4.382A3.323 3.323 0 0 1 .64 6.575v.045a3.288 3.288 0 0 0 2.632 3.218 3.203 3.203 0 0 1-.865.115 3.23 3.23 0 0 1-.614-.057 3.283 3.283 0 0 0 3.067 2.277A6.588 6.588 0 0 1 .78 13.58a6.32 6.32 0 0 1-.78-.045A9.344 9.344 0 0 0 5.026 15z"/>
+                      </svg>
+                </button>
+            </a>
+      
+            <a href="" >
+                <button class="btn-networkB">
+                    <svg class="svg-b" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-instagram" viewBox="0 0 16 16">
+                        <path d="M8 0C5.829 0 5.556.01 4.703.048 3.85.088 3.269.222 2.76.42a3.917 3.917 0 0 0-1.417.923A3.927 3.927 0 0 0 .42 2.76C.222 3.268.087 3.85.048 4.7.01 5.555 0 5.827 0 8.001c0 2.172.01 2.444.048 3.297.04.852.174 1.433.372 1.942.205.526.478.972.923 1.417.444.445.89.719 1.416.923.51.198 1.09.333 1.942.372C5.555 15.99 5.827 16 8 16s2.444-.01 3.298-.048c.851-.04 1.434-.174 1.943-.372a3.916 3.916 0 0 0 1.416-.923c.445-.445.718-.891.923-1.417.197-.509.332-1.09.372-1.942C15.99 10.445 16 10.173 16 8s-.01-2.445-.048-3.299c-.04-.851-.175-1.433-.372-1.941a3.926 3.926 0 0 0-.923-1.417A3.911 3.911 0 0 0 13.24.42c-.51-.198-1.092-.333-1.943-.372C10.443.01 10.172 0 7.998 0h.003zm-.717 1.442h.718c2.136 0 2.389.007 3.232.046.78.035 1.204.166 1.486.275.373.145.64.319.92.599.28.28.453.546.598.92.11.281.24.705.275 1.485.039.843.047 1.096.047 3.231s-.008 2.389-.047 3.232c-.035.78-.166 1.203-.275 1.485a2.47 2.47 0 0 1-.599.919c-.28.28-.546.453-.92.598-.28.11-.704.24-1.485.276-.843.038-1.096.047-3.232.047s-2.39-.009-3.233-.047c-.78-.036-1.203-.166-1.485-.276a2.478 2.478 0 0 1-.92-.598 2.48 2.48 0 0 1-.6-.92c-.109-.281-.24-.705-.275-1.485-.038-.843-.046-1.096-.046-3.233 0-2.136.008-2.388.046-3.231.036-.78.166-1.204.276-1.486.145-.373.319-.64.599-.92.28-.28.546-.453.92-.598.282-.11.705-.24 1.485-.276.738-.034 1.024-.044 2.515-.045v.002zm4.988 1.328a.96.96 0 1 0 0 1.92.96.96 0 0 0 0-1.92zm-4.27 1.122a4.109 4.109 0 1 0 0 8.217 4.109 4.109 0 0 0 0-8.217zm0 1.441a2.667 2.667 0 1 1 0 5.334 2.667 2.667 0 0 1 0-5.334z"/>
+                      </svg>
+                </button>
+            </a>
+            </div>
+            
+          </div>
+
+          <div class="swiper-slide center-cont-emp">
+            <img src="./src/clientes/brendaR.webp" alt="" class="img-empl">
+            <h4 class="name-empl">Brenda Rodriguez</h4>
+            <h6 class="puest-empl">Diseñadora Gráfica</h6>
+            <h6 class="text-desc-empl"> Toda idea de contenido tiene que estar acompañada de una excelente idea de diseño. Brenda es la persona ideal para esto. Encargada de generar contenido gráfico creativo e innovador.</h6>
+            <div class="net-empl">
+              <a href="" >
+                <button class="btn-networkB">
+                    <svg class="svg-b" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-linkedin" viewBox="0 0 16 16">
+                        <path d="M0 1.146C0 .513.526 0 1.175 0h13.65C15.474 0 16 .513 16 1.146v13.708c0 .633-.526 1.146-1.175 1.146H1.175C.526 16 0 15.487 0 14.854V1.146zm4.943 12.248V6.169H2.542v7.225h2.401zm-1.2-8.212c.837 0 1.358-.554 1.358-1.248-.015-.709-.52-1.248-1.342-1.248-.822 0-1.359.54-1.359 1.248 0 .694.521 1.248 1.327 1.248h.016zm4.908 8.212V9.359c0-.216.016-.432.08-.586.173-.431.568-.878 1.232-.878.869 0 1.216.662 1.216 1.634v3.865h2.401V9.25c0-2.22-1.184-3.252-2.764-3.252-1.274 0-1.845.7-2.165 1.193v.025h-.016a5.54 5.54 0 0 1 .016-.025V6.169h-2.4c.03.678 0 7.225 0 7.225h2.4z"/>
+                    </svg>
+                </button>
+            </a>
+      
+            <a href="" >
+                <button class="btn-networkB">
+                    <svg class="svg-b" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-twitter" viewBox="0 0 16 16">
+                        <path d="M5.026 15c6.038 0 9.341-5.003 9.341-9.334 0-.14 0-.282-.006-.422A6.685 6.685 0 0 0 16 3.542a6.658 6.658 0 0 1-1.889.518 3.301 3.301 0 0 0 1.447-1.817 6.533 6.533 0 0 1-2.087.793A3.286 3.286 0 0 0 7.875 6.03a9.325 9.325 0 0 1-6.767-3.429 3.289 3.289 0 0 0 1.018 4.382A3.323 3.323 0 0 1 .64 6.575v.045a3.288 3.288 0 0 0 2.632 3.218 3.203 3.203 0 0 1-.865.115 3.23 3.23 0 0 1-.614-.057 3.283 3.283 0 0 0 3.067 2.277A6.588 6.588 0 0 1 .78 13.58a6.32 6.32 0 0 1-.78-.045A9.344 9.344 0 0 0 5.026 15z"/>
+                      </svg>
+                </button>
+            </a>
+      
+            <a href="" >
+                <button class="btn-networkB">
+                    <svg class="svg-b" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-instagram" viewBox="0 0 16 16">
+                        <path d="M8 0C5.829 0 5.556.01 4.703.048 3.85.088 3.269.222 2.76.42a3.917 3.917 0 0 0-1.417.923A3.927 3.927 0 0 0 .42 2.76C.222 3.268.087 3.85.048 4.7.01 5.555 0 5.827 0 8.001c0 2.172.01 2.444.048 3.297.04.852.174 1.433.372 1.942.205.526.478.972.923 1.417.444.445.89.719 1.416.923.51.198 1.09.333 1.942.372C5.555 15.99 5.827 16 8 16s2.444-.01 3.298-.048c.851-.04 1.434-.174 1.943-.372a3.916 3.916 0 0 0 1.416-.923c.445-.445.718-.891.923-1.417.197-.509.332-1.09.372-1.942C15.99 10.445 16 10.173 16 8s-.01-2.445-.048-3.299c-.04-.851-.175-1.433-.372-1.941a3.926 3.926 0 0 0-.923-1.417A3.911 3.911 0 0 0 13.24.42c-.51-.198-1.092-.333-1.943-.372C10.443.01 10.172 0 7.998 0h.003zm-.717 1.442h.718c2.136 0 2.389.007 3.232.046.78.035 1.204.166 1.486.275.373.145.64.319.92.599.28.28.453.546.598.92.11.281.24.705.275 1.485.039.843.047 1.096.047 3.231s-.008 2.389-.047 3.232c-.035.78-.166 1.203-.275 1.485a2.47 2.47 0 0 1-.599.919c-.28.28-.546.453-.92.598-.28.11-.704.24-1.485.276-.843.038-1.096.047-3.232.047s-2.39-.009-3.233-.047c-.78-.036-1.203-.166-1.485-.276a2.478 2.478 0 0 1-.92-.598 2.48 2.48 0 0 1-.6-.92c-.109-.281-.24-.705-.275-1.485-.038-.843-.046-1.096-.046-3.233 0-2.136.008-2.388.046-3.231.036-.78.166-1.204.276-1.486.145-.373.319-.64.599-.92.28-.28.546-.453.92-.598.282-.11.705-.24 1.485-.276.738-.034 1.024-.044 2.515-.045v.002zm4.988 1.328a.96.96 0 1 0 0 1.92.96.96 0 0 0 0-1.92zm-4.27 1.122a4.109 4.109 0 1 0 0 8.217 4.109 4.109 0 0 0 0-8.217zm0 1.441a2.667 2.667 0 1 1 0 5.334 2.667 2.667 0 0 1 0-5.334z"/>
+                      </svg>
+                </button>
+            </a>
+            </div>
+            
+          </div>
+
+          <div class="swiper-slide center-cont-emp">
+            <img src="./src/clientes/nico.webp" alt="" class="img-empl">
+            <h4 class="name-empl">Nicolas Flores</h4>
+            <h6 class="puest-empl">Community Manager</h6>
+            <h6 class="text-desc-empl">Nicolas se destaca por general contenido de valor y de interacción en comunidades digitales. Su buena onda y predisposición hacen de una persona eficiente en su trabajo.            </h6>
+            <div class="net-empl">
+              <a href="" >
+                <button class="btn-networkB">
+                    <svg class="svg-b" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-linkedin" viewBox="0 0 16 16">
+                        <path d="M0 1.146C0 .513.526 0 1.175 0h13.65C15.474 0 16 .513 16 1.146v13.708c0 .633-.526 1.146-1.175 1.146H1.175C.526 16 0 15.487 0 14.854V1.146zm4.943 12.248V6.169H2.542v7.225h2.401zm-1.2-8.212c.837 0 1.358-.554 1.358-1.248-.015-.709-.52-1.248-1.342-1.248-.822 0-1.359.54-1.359 1.248 0 .694.521 1.248 1.327 1.248h.016zm4.908 8.212V9.359c0-.216.016-.432.08-.586.173-.431.568-.878 1.232-.878.869 0 1.216.662 1.216 1.634v3.865h2.401V9.25c0-2.22-1.184-3.252-2.764-3.252-1.274 0-1.845.7-2.165 1.193v.025h-.016a5.54 5.54 0 0 1 .016-.025V6.169h-2.4c.03.678 0 7.225 0 7.225h2.4z"/>
+                    </svg>
+                </button>
+            </a>
+      
+            <a href="" >
+                <button class="btn-networkB">
+                    <svg class="svg-b" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-twitter" viewBox="0 0 16 16">
+                        <path d="M5.026 15c6.038 0 9.341-5.003 9.341-9.334 0-.14 0-.282-.006-.422A6.685 6.685 0 0 0 16 3.542a6.658 6.658 0 0 1-1.889.518 3.301 3.301 0 0 0 1.447-1.817 6.533 6.533 0 0 1-2.087.793A3.286 3.286 0 0 0 7.875 6.03a9.325 9.325 0 0 1-6.767-3.429 3.289 3.289 0 0 0 1.018 4.382A3.323 3.323 0 0 1 .64 6.575v.045a3.288 3.288 0 0 0 2.632 3.218 3.203 3.203 0 0 1-.865.115 3.23 3.23 0 0 1-.614-.057 3.283 3.283 0 0 0 3.067 2.277A6.588 6.588 0 0 1 .78 13.58a6.32 6.32 0 0 1-.78-.045A9.344 9.344 0 0 0 5.026 15z"/>
+                      </svg>
+                </button>
+            </a>
+      
+            <a href="" >
+                <button class="btn-networkB">
+                    <svg class="svg-b" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-instagram" viewBox="0 0 16 16">
+                        <path d="M8 0C5.829 0 5.556.01 4.703.048 3.85.088 3.269.222 2.76.42a3.917 3.917 0 0 0-1.417.923A3.927 3.927 0 0 0 .42 2.76C.222 3.268.087 3.85.048 4.7.01 5.555 0 5.827 0 8.001c0 2.172.01 2.444.048 3.297.04.852.174 1.433.372 1.942.205.526.478.972.923 1.417.444.445.89.719 1.416.923.51.198 1.09.333 1.942.372C5.555 15.99 5.827 16 8 16s2.444-.01 3.298-.048c.851-.04 1.434-.174 1.943-.372a3.916 3.916 0 0 0 1.416-.923c.445-.445.718-.891.923-1.417.197-.509.332-1.09.372-1.942C15.99 10.445 16 10.173 16 8s-.01-2.445-.048-3.299c-.04-.851-.175-1.433-.372-1.941a3.926 3.926 0 0 0-.923-1.417A3.911 3.911 0 0 0 13.24.42c-.51-.198-1.092-.333-1.943-.372C10.443.01 10.172 0 7.998 0h.003zm-.717 1.442h.718c2.136 0 2.389.007 3.232.046.78.035 1.204.166 1.486.275.373.145.64.319.92.599.28.28.453.546.598.92.11.281.24.705.275 1.485.039.843.047 1.096.047 3.231s-.008 2.389-.047 3.232c-.035.78-.166 1.203-.275 1.485a2.47 2.47 0 0 1-.599.919c-.28.28-.546.453-.92.598-.28.11-.704.24-1.485.276-.843.038-1.096.047-3.232.047s-2.39-.009-3.233-.047c-.78-.036-1.203-.166-1.485-.276a2.478 2.478 0 0 1-.92-.598 2.48 2.48 0 0 1-.6-.92c-.109-.281-.24-.705-.275-1.485-.038-.843-.046-1.096-.046-3.233 0-2.136.008-2.388.046-3.231.036-.78.166-1.204.276-1.486.145-.373.319-.64.599-.92.28-.28.546-.453.92-.598.282-.11.705-.24 1.485-.276.738-.034 1.024-.044 2.515-.045v.002zm4.988 1.328a.96.96 0 1 0 0 1.92.96.96 0 0 0 0-1.92zm-4.27 1.122a4.109 4.109 0 1 0 0 8.217 4.109 4.109 0 0 0 0-8.217zm0 1.441a2.667 2.667 0 1 1 0 5.334 2.667 2.667 0 0 1 0-5.334z"/>
+                      </svg>
+                </button>
+            </a>
+            </div>
+            
+          </div>
+
+          <div class="swiper-slide center-cont-emp">
+            <img src="./src/clientes/SofiaLambo.webp" alt="" class="img-empl">
+            <h4 class="name-empl">Sofia Lamborizzio</h4>
+            <h6 class="puest-empl">Community Manager</h6>
+            <h6 class="text-desc-empl">Sofia es nuestra Community Manager. Encargada de generar ideas y contenidos para que las marcas puedan triunfar y diferenciarse en el internet. <br> &nbsp</h6>
+            <div class="net-empl">
+              <a href="" >
+                <button class="btn-networkB">
+                    <svg class="svg-b" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-linkedin" viewBox="0 0 16 16">
+                        <path d="M0 1.146C0 .513.526 0 1.175 0h13.65C15.474 0 16 .513 16 1.146v13.708c0 .633-.526 1.146-1.175 1.146H1.175C.526 16 0 15.487 0 14.854V1.146zm4.943 12.248V6.169H2.542v7.225h2.401zm-1.2-8.212c.837 0 1.358-.554 1.358-1.248-.015-.709-.52-1.248-1.342-1.248-.822 0-1.359.54-1.359 1.248 0 .694.521 1.248 1.327 1.248h.016zm4.908 8.212V9.359c0-.216.016-.432.08-.586.173-.431.568-.878 1.232-.878.869 0 1.216.662 1.216 1.634v3.865h2.401V9.25c0-2.22-1.184-3.252-2.764-3.252-1.274 0-1.845.7-2.165 1.193v.025h-.016a5.54 5.54 0 0 1 .016-.025V6.169h-2.4c.03.678 0 7.225 0 7.225h2.4z"/>
+                    </svg>
+                </button>
+            </a>
+      
+            <a href="" >
+                <button class="btn-networkB">
+                    <svg class="svg-b" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-twitter" viewBox="0 0 16 16">
+                        <path d="M5.026 15c6.038 0 9.341-5.003 9.341-9.334 0-.14 0-.282-.006-.422A6.685 6.685 0 0 0 16 3.542a6.658 6.658 0 0 1-1.889.518 3.301 3.301 0 0 0 1.447-1.817 6.533 6.533 0 0 1-2.087.793A3.286 3.286 0 0 0 7.875 6.03a9.325 9.325 0 0 1-6.767-3.429 3.289 3.289 0 0 0 1.018 4.382A3.323 3.323 0 0 1 .64 6.575v.045a3.288 3.288 0 0 0 2.632 3.218 3.203 3.203 0 0 1-.865.115 3.23 3.23 0 0 1-.614-.057 3.283 3.283 0 0 0 3.067 2.277A6.588 6.588 0 0 1 .78 13.58a6.32 6.32 0 0 1-.78-.045A9.344 9.344 0 0 0 5.026 15z"/>
+                      </svg>
+                </button>
+            </a>
+      
+            <a href="" >
+                <button class="btn-networkB">
+                    <svg class="svg-b" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-instagram" viewBox="0 0 16 16">
+                        <path d="M8 0C5.829 0 5.556.01 4.703.048 3.85.088 3.269.222 2.76.42a3.917 3.917 0 0 0-1.417.923A3.927 3.927 0 0 0 .42 2.76C.222 3.268.087 3.85.048 4.7.01 5.555 0 5.827 0 8.001c0 2.172.01 2.444.048 3.297.04.852.174 1.433.372 1.942.205.526.478.972.923 1.417.444.445.89.719 1.416.923.51.198 1.09.333 1.942.372C5.555 15.99 5.827 16 8 16s2.444-.01 3.298-.048c.851-.04 1.434-.174 1.943-.372a3.916 3.916 0 0 0 1.416-.923c.445-.445.718-.891.923-1.417.197-.509.332-1.09.372-1.942C15.99 10.445 16 10.173 16 8s-.01-2.445-.048-3.299c-.04-.851-.175-1.433-.372-1.941a3.926 3.926 0 0 0-.923-1.417A3.911 3.911 0 0 0 13.24.42c-.51-.198-1.092-.333-1.943-.372C10.443.01 10.172 0 7.998 0h.003zm-.717 1.442h.718c2.136 0 2.389.007 3.232.046.78.035 1.204.166 1.486.275.373.145.64.319.92.599.28.28.453.546.598.92.11.281.24.705.275 1.485.039.843.047 1.096.047 3.231s-.008 2.389-.047 3.232c-.035.78-.166 1.203-.275 1.485a2.47 2.47 0 0 1-.599.919c-.28.28-.546.453-.92.598-.28.11-.704.24-1.485.276-.843.038-1.096.047-3.232.047s-2.39-.009-3.233-.047c-.78-.036-1.203-.166-1.485-.276a2.478 2.478 0 0 1-.92-.598 2.48 2.48 0 0 1-.6-.92c-.109-.281-.24-.705-.275-1.485-.038-.843-.046-1.096-.046-3.233 0-2.136.008-2.388.046-3.231.036-.78.166-1.204.276-1.486.145-.373.319-.64.599-.92.28-.28.546-.453.92-.598.282-.11.705-.24 1.485-.276.738-.034 1.024-.044 2.515-.045v.002zm4.988 1.328a.96.96 0 1 0 0 1.92.96.96 0 0 0 0-1.92zm-4.27 1.122a4.109 4.109 0 1 0 0 8.217 4.109 4.109 0 0 0 0-8.217zm0 1.441a2.667 2.667 0 1 1 0 5.334 2.667 2.667 0 0 1 0-5.334z"/>
+                      </svg>
+                </button>
+            </a>
+            </div>
+            
+          </div>
+
+          <div class="swiper-slide center-cont-emp">
+            <img src="./src/clientes/leticia.webp" alt="" class="img-empl">
+            <h4 class="name-empl">Leticia Mazufri</h4>
+            <h6 class="puest-empl">Motion Graphics</h6>
+            <h6 class="text-desc-empl">Si hablamos de una genia en Animación y Motion Graphics, sin duda hablamos de Leti. Ellas es encargada de generar las piezas audivisuales tanto para plataformas web o medios sociales.</h6>
+            <div class="net-empl">
+              <a href="" >
+                <button class="btn-networkB">
+                    <svg class="svg-b" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-linkedin" viewBox="0 0 16 16">
+                        <path d="M0 1.146C0 .513.526 0 1.175 0h13.65C15.474 0 16 .513 16 1.146v13.708c0 .633-.526 1.146-1.175 1.146H1.175C.526 16 0 15.487 0 14.854V1.146zm4.943 12.248V6.169H2.542v7.225h2.401zm-1.2-8.212c.837 0 1.358-.554 1.358-1.248-.015-.709-.52-1.248-1.342-1.248-.822 0-1.359.54-1.359 1.248 0 .694.521 1.248 1.327 1.248h.016zm4.908 8.212V9.359c0-.216.016-.432.08-.586.173-.431.568-.878 1.232-.878.869 0 1.216.662 1.216 1.634v3.865h2.401V9.25c0-2.22-1.184-3.252-2.764-3.252-1.274 0-1.845.7-2.165 1.193v.025h-.016a5.54 5.54 0 0 1 .016-.025V6.169h-2.4c.03.678 0 7.225 0 7.225h2.4z"/>
+                    </svg>
+                </button>
+            </a>
+      
+            <a href="" >
+                <button class="btn-networkB">
+                    <svg class="svg-b" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-twitter" viewBox="0 0 16 16">
+                        <path d="M5.026 15c6.038 0 9.341-5.003 9.341-9.334 0-.14 0-.282-.006-.422A6.685 6.685 0 0 0 16 3.542a6.658 6.658 0 0 1-1.889.518 3.301 3.301 0 0 0 1.447-1.817 6.533 6.533 0 0 1-2.087.793A3.286 3.286 0 0 0 7.875 6.03a9.325 9.325 0 0 1-6.767-3.429 3.289 3.289 0 0 0 1.018 4.382A3.323 3.323 0 0 1 .64 6.575v.045a3.288 3.288 0 0 0 2.632 3.218 3.203 3.203 0 0 1-.865.115 3.23 3.23 0 0 1-.614-.057 3.283 3.283 0 0 0 3.067 2.277A6.588 6.588 0 0 1 .78 13.58a6.32 6.32 0 0 1-.78-.045A9.344 9.344 0 0 0 5.026 15z"/>
+                      </svg>
+                </button>
+            </a>
+      
+            <a href="" >
+                <button class="btn-networkB">
+                    <svg class="svg-b" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-instagram" viewBox="0 0 16 16">
+                        <path d="M8 0C5.829 0 5.556.01 4.703.048 3.85.088 3.269.222 2.76.42a3.917 3.917 0 0 0-1.417.923A3.927 3.927 0 0 0 .42 2.76C.222 3.268.087 3.85.048 4.7.01 5.555 0 5.827 0 8.001c0 2.172.01 2.444.048 3.297.04.852.174 1.433.372 1.942.205.526.478.972.923 1.417.444.445.89.719 1.416.923.51.198 1.09.333 1.942.372C5.555 15.99 5.827 16 8 16s2.444-.01 3.298-.048c.851-.04 1.434-.174 1.943-.372a3.916 3.916 0 0 0 1.416-.923c.445-.445.718-.891.923-1.417.197-.509.332-1.09.372-1.942C15.99 10.445 16 10.173 16 8s-.01-2.445-.048-3.299c-.04-.851-.175-1.433-.372-1.941a3.926 3.926 0 0 0-.923-1.417A3.911 3.911 0 0 0 13.24.42c-.51-.198-1.092-.333-1.943-.372C10.443.01 10.172 0 7.998 0h.003zm-.717 1.442h.718c2.136 0 2.389.007 3.232.046.78.035 1.204.166 1.486.275.373.145.64.319.92.599.28.28.453.546.598.92.11.281.24.705.275 1.485.039.843.047 1.096.047 3.231s-.008 2.389-.047 3.232c-.035.78-.166 1.203-.275 1.485a2.47 2.47 0 0 1-.599.919c-.28.28-.546.453-.92.598-.28.11-.704.24-1.485.276-.843.038-1.096.047-3.232.047s-2.39-.009-3.233-.047c-.78-.036-1.203-.166-1.485-.276a2.478 2.478 0 0 1-.92-.598 2.48 2.48 0 0 1-.6-.92c-.109-.281-.24-.705-.275-1.485-.038-.843-.046-1.096-.046-3.233 0-2.136.008-2.388.046-3.231.036-.78.166-1.204.276-1.486.145-.373.319-.64.599-.92.28-.28.546-.453.92-.598.282-.11.705-.24 1.485-.276.738-.034 1.024-.044 2.515-.045v.002zm4.988 1.328a.96.96 0 1 0 0 1.92.96.96 0 0 0 0-1.92zm-4.27 1.122a4.109 4.109 0 1 0 0 8.217 4.109 4.109 0 0 0 0-8.217zm0 1.441a2.667 2.667 0 1 1 0 5.334 2.667 2.667 0 0 1 0-5.334z"/>
+                      </svg>
+                </button>
+            </a>
+            </div>
+            
+          </div>
+         
+        </div>
+        
+      </div>
+
+    </div>
+
+    <div class="col-md-4 order-1 order-md-0">
+      <div class="ft-70 ">
+        <h6 class="h-t-w"><span class="lineN" style="opacity:0;">________</span>DEVS</h6>
+        <h2 class="title-who contra-color"><span class="lineL">_____</span><span class="lineN" style="opacity:0;">tu</span>Nuestro equipo</h2>
+        <h1 class="text-w contra-color-S">Un equipo de <br> profesionales confiables.</h1>
+    </div>
+    </div>
+  </div>
+</div>
+
+<div class="container-fluid " id="friends">
+  <div class="row">
+    
+    <div class="col-md-3 friend-h p-text-services div-center-flex-column">
+           
+      <h6 class="h-t-w"><span class="lineN" style="opacity:0;">________</span>PARTNERS</h6>
+      <h2 class="title-who "><span class="lineL">_____</span><span class="lineN" style="opacity:0;">tu</span>Los que confiaron</h2>
+      <h1 class="text-w">Algunos de nuestros <br> clientes</h1>
+      <div class="centrar">
+         <a href="#equipo"> <button class="btn btn-home-bt">NOSOTROS</button> </a> <a href="#servicios"> <button class="btn btn-home-bt w-80">SERVICIOS</button></a>
+      </div>
+    
+</div>
+   
+      <div class="col-md-9 friend-h  cont-friends no-phone"> 
+        <div class="cont-icons">
+          <img src="./src/clientes-byw/MAE_WEB.webp" alt="" class="icon-friends">
+          <img src="./src/clientes-byw/MAEBEER_WEB.webp" alt="" class="icon-friends">
+          <img src="./src/clientes-byw/hidraulica DC.webp" alt="" class="icon-friends">
+          <img src="./src/clientes-byw/trainhub.webp" class="icon-friends"alt="">
+          <img src="./src/clientes-byw/miBarrio.webp" class="icon-friends" alt="">
+          <img src="./src/clientes-byw/INDIAN_HOLY_WEB.webp" alt="" class="icon-friends">
+          <img src="./src/clientes-byw/GETBIT.webp" class="icon-friends" alt=""> 
+          <img src="./src/clientes-byw/antonia.webp" class="icon-friends" alt="">
+          <img src="./src/clientes-byw/ice Berries.webp"  class="icon-friends" alt=""> 
+          <img src="./src/clientes-byw/GoCARS.webp" alt="" class="icon-friends">
+          <img src="./src/clientes-byw/My egresados.webp" alt="" class="icon-friends" style="opacity: 0.7;"> 
+          <img src="./src/clientes-byw/DIFORTE_LIVING_WEB.webp" alt="" class="icon-friends">
+        </div>
+       
+      </div>
+
+      <div class="col-md-8 no-screen">
+        <div class="swiper mySwipersd">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide center-cont-emp">
+              <img src="./src/clientes-byw/MAE_WEB.webp" alt="" class="icon-friends">
+            </div>
+            <div class="swiper-slide center-cont-emp">
+              <img src="./src/clientes-byw/MAEBEER_WEB.webp" alt="" class="icon-friends">
+            </div>
+            <div class="swiper-slide center-cont-emp">
+              <img src="./src/clientes-byw/antonia.webp" class="icon-friends" alt="">
+            </div>
+            <div class="swiper-slide center-cont-emp">
+              <img src="./src/clientes-byw/hidraulica DC.webp" alt="" class="icon-friends">
+            </div>
+            <div class="swiper-slide center-cont-emp">
+              <img src="./src/clientes-byw/trainhub.webp" class="icon-friends"alt="">
+            </div>
+            <div class="swiper-slide center-cont-emp">
+              <img src="./src/clientes-byw/miBarrio.webp" class="icon-friends" alt="">
+            </div>
+            <div class="swiper-slide center-cont-emp">
+              <img src="./src/clientes-byw/INDIAN_HOLY_WEB.webp" alt="" class="icon-friends">
+            </div>
+            <div class="swiper-slide center-cont-emp">
+              <img src="./src/clientes-byw/GETBIT.webp" class="icon-friends" alt="">
+            </div>
+            <div class="swiper-slide center-cont-emp">
+              <img src="./src/clientes-byw/antonia.webp" class="icon-friends" alt="">
+            </div>  
+            <div class="swiper-slide center-cont-emp">
+              <img src="./src/clientes-byw/ice Berries.webp"  class="icon-friends" alt="">
+            </div>
+            <div class="swiper-slide center-cont-emp">
+              <img src="./src/clientes-byw/GoCARS.webp" alt="" class="icon-friends" >
+            </div>
+            <div class="swiper-slide center-cont-emp">
+              <img src="./src/clientes-byw/My egresados.webp" alt="" class="icon-friends" style="opacity: 0.5;">
+            </div>
+            <div class="swiper-slide center-cont-emp">
+              <img src="./src/clientes-byw/DIFORTE_LIVING_WEB.webp" alt="" class="icon-friends">
+            </div>
+          </div>
+        </div>
+      </div>
+  </div>
+</div>
+
+<div class="container-fluid" id="footer">
+    <div class="row">
+      <div class="col-md-4">
+        <div class="cont-celular">
+          <h1 class="numerber-phone-title">UX/UI</h1>  
+          <h1 class="numerber-phone"> <svg class="mb-2 svg-cell" xmlns="http://www.w3.org/2000/svg" width="40" height="40" fill="currentColor" class="bi bi-phone" viewBox="0 0 16 16">
+              
+              <path d="M11 1a1 1 0 0 1 1 1v12a1 1 0 0 1-1 1H5a1 1 0 0 1-1-1V2a1 1 0 0 1 1-1h6zM5 0a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h6a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2H5z"/>
+              <path d="M8 14a1 1 0 1 0 0-2 1 1 0 0 0 0 2z"/>
+            </svg> <a href="" class="numerber-phone">+54 352240-4857</a></h1>
+            <h1 class="numerber-phone-title">SOCIAL MEDIA</h1>  
+           <h1 class="numerber-phone"> <svg class="mb-2 svg-cell" xmlns="http://www.w3.org/2000/svg" width="40" height="40" fill="currentColor" class="bi bi-phone" viewBox="0 0 16 16">
+              <path d="M11 1a1 1 0 0 1 1 1v12a1 1 0 0 1-1 1H5a1 1 0 0 1-1-1V2a1 1 0 0 1 1-1h6zM5 0a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h6a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2H5z"/>
+              <path d="M8 14a1 1 0 1 0 0-2 1 1 0 0 0 0 2z"/>
+            </svg> <a href="" class="numerber-phone">+54 349649-8705</a></h1>
+          </div>
+      </div>
+   
+        <div class="col-md-4 f-center"> <h6 class="text-foot"> <a href=""> contacto.floudtech@gmail.com</h6></a> </div>
+        
+        
+        <div class="col-md-4 f-center cont-net">
+          
+                <a href="" >
+                    <button class="btn-networkB">
+                        <svg class="svg-b" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-linkedin" viewBox="0 0 16 16">
+                            <path d="M0 1.146C0 .513.526 0 1.175 0h13.65C15.474 0 16 .513 16 1.146v13.708c0 .633-.526 1.146-1.175 1.146H1.175C.526 16 0 15.487 0 14.854V1.146zm4.943 12.248V6.169H2.542v7.225h2.401zm-1.2-8.212c.837 0 1.358-.554 1.358-1.248-.015-.709-.52-1.248-1.342-1.248-.822 0-1.359.54-1.359 1.248 0 .694.521 1.248 1.327 1.248h.016zm4.908 8.212V9.359c0-.216.016-.432.08-.586.173-.431.568-.878 1.232-.878.869 0 1.216.662 1.216 1.634v3.865h2.401V9.25c0-2.22-1.184-3.252-2.764-3.252-1.274 0-1.845.7-2.165 1.193v.025h-.016a5.54 5.54 0 0 1 .016-.025V6.169h-2.4c.03.678 0 7.225 0 7.225h2.4z"/>
+                        </svg>
+                    </button>
+                </a>
+
+                <a href="" >
+                    <button class="btn-networkB">
+                        <svg class="svg-b" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-twitter" viewBox="0 0 16 16">
+                            <path d="M5.026 15c6.038 0 9.341-5.003 9.341-9.334 0-.14 0-.282-.006-.422A6.685 6.685 0 0 0 16 3.542a6.658 6.658 0 0 1-1.889.518 3.301 3.301 0 0 0 1.447-1.817 6.533 6.533 0 0 1-2.087.793A3.286 3.286 0 0 0 7.875 6.03a9.325 9.325 0 0 1-6.767-3.429 3.289 3.289 0 0 0 1.018 4.382A3.323 3.323 0 0 1 .64 6.575v.045a3.288 3.288 0 0 0 2.632 3.218 3.203 3.203 0 0 1-.865.115 3.23 3.23 0 0 1-.614-.057 3.283 3.283 0 0 0 3.067 2.277A6.588 6.588 0 0 1 .78 13.58a6.32 6.32 0 0 1-.78-.045A9.344 9.344 0 0 0 5.026 15z"/>
+                          </svg>
+                    </button>
+                </a>
+
+                <a href="" >
+                    <button class="btn-networkB">
+                        <svg class="svg-b" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-instagram" viewBox="0 0 16 16">
+                            <path d="M8 0C5.829 0 5.556.01 4.703.048 3.85.088 3.269.222 2.76.42a3.917 3.917 0 0 0-1.417.923A3.927 3.927 0 0 0 .42 2.76C.222 3.268.087 3.85.048 4.7.01 5.555 0 5.827 0 8.001c0 2.172.01 2.444.048 3.297.04.852.174 1.433.372 1.942.205.526.478.972.923 1.417.444.445.89.719 1.416.923.51.198 1.09.333 1.942.372C5.555 15.99 5.827 16 8 16s2.444-.01 3.298-.048c.851-.04 1.434-.174 1.943-.372a3.916 3.916 0 0 0 1.416-.923c.445-.445.718-.891.923-1.417.197-.509.332-1.09.372-1.942C15.99 10.445 16 10.173 16 8s-.01-2.445-.048-3.299c-.04-.851-.175-1.433-.372-1.941a3.926 3.926 0 0 0-.923-1.417A3.911 3.911 0 0 0 13.24.42c-.51-.198-1.092-.333-1.943-.372C10.443.01 10.172 0 7.998 0h.003zm-.717 1.442h.718c2.136 0 2.389.007 3.232.046.78.035 1.204.166 1.486.275.373.145.64.319.92.599.28.28.453.546.598.92.11.281.24.705.275 1.485.039.843.047 1.096.047 3.231s-.008 2.389-.047 3.232c-.035.78-.166 1.203-.275 1.485a2.47 2.47 0 0 1-.599.919c-.28.28-.546.453-.92.598-.28.11-.704.24-1.485.276-.843.038-1.096.047-3.232.047s-2.39-.009-3.233-.047c-.78-.036-1.203-.166-1.485-.276a2.478 2.478 0 0 1-.92-.598 2.48 2.48 0 0 1-.6-.92c-.109-.281-.24-.705-.275-1.485-.038-.843-.046-1.096-.046-3.233 0-2.136.008-2.388.046-3.231.036-.78.166-1.204.276-1.486.145-.373.319-.64.599-.92.28-.28.546-.453.92-.598.282-.11.705-.24 1.485-.276.738-.034 1.024-.044 2.515-.045v.002zm4.988 1.328a.96.96 0 1 0 0 1.92.96.96 0 0 0 0-1.92zm-4.27 1.122a4.109 4.109 0 1 0 0 8.217 4.109 4.109 0 0 0 0-8.217zm0 1.441a2.667 2.667 0 1 1 0 5.334 2.667 2.667 0 0 1 0-5.334z"/>
+                          </svg>
+                    </button>
+                </a>
+        </div>
+        
+      <div class="col-md-12 line"></div>
+        <div class="col-md-4 no-phone">
+        <ul class="navbar-nav ml-auto  flex-row">
+            <li class="nav-item active">
+              <a class="nav-link" href="#home">NOSOTROS</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#servicios">SERVICIOS</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#impact">IMPACTO</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#friends">CLIENTES</a>
+              </li>
+          </ul>
+        </div>
+        <div class="col-md-8 mt-2 f-end">
+            
+           <h6>Website by FloudTech</h6> 
+        </div>
+    </div>
+</div>
+
+      <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+      <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.min.js" integrity="sha384-VHvPCCyXqtD5DqJeNxl2dtTyhF78xXNXdkwX1CZeRusQfRKp+tA7hAShOK/B/fQ2" crossorigin="anonymous"></script>
+      <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
+      <script src="./main.js"></script>
+      <script src="./assets/particles.js-master/particles.js"></script>
+      <script src="./assets/particles.js-master/demo/js/app.js"></script>
+      <script>
+        if ($(window).width() < 960) {
+          particlesJS.load('particles-js', 'assets/particles.js-master/demo/particles.json', function() {
+        console.log('callback - particles.js config loaded');
+        });
+        } else{
+          particlesJS.load('particles-js', 'assets/particles.js-master/demo/particlesjs-config.json', function() {
+        console.log('callback - particles.js config loaded');
+        });
+        }
+
+
+      </script>
+    </body>
+</html>
