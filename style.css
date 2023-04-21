@@ -561,7 +561,17 @@ svg {
 
 #friends {
   padding: 40px 100px;
-  background-color: #f5f6f8;
+  background: #5d24d4; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+  to top,
+  #345ff1,
+  #5d24d4
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to top,
+    #345ff1,
+    #5d24d4
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 
 #footer {
@@ -1160,7 +1170,17 @@ a {
 
   #friends {
     padding: 20px;
-    background-color: #f1f1f1;
+    background: #5d24d4; /* fallback for old browsers */
+    background: -webkit-linear-gradient(
+    to top,
+    #345ff1,
+    #5d24d4
+    ); /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(
+      to top,
+      #345ff1,
+      #5d24d4
+    ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
   }
 
   .f-center {
