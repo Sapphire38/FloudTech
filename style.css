@@ -61,6 +61,12 @@ html {
   z-index: 100 !important;
 }
 
+.btn{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 .btn-network {
   border-radius: 50px;
   display: flex;
@@ -167,8 +173,8 @@ svg {
 }
 
 .text-home {
-  font-size: 3.4vw !important;
-  line-height: 3.4vw;
+  font-size: 3vw !important;
+  line-height: 3vw;
   margin-left: 15%;
   font-family: poppinsSemiBold;
   color: #707070;
@@ -590,8 +596,8 @@ svg {
 }
 
 .icon-friends {
-  height: 120px;
-  margin: 40px;
+  height: 8vw;
+  margin: 20px;
 }
 
 .card-c {
@@ -645,7 +651,7 @@ svg {
     #5d24d4
   ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
   position: absolute;
-  bottom: 15%;
+  bottom: 16.5%;
   right: -11%;
 }
 
@@ -761,6 +767,7 @@ a {
     color: rgb(128, 142, 153);
     font-size: 0.8rem !important;
     text-align: left;
+    padding: 10px;
   }
 
   .text-card-float{
@@ -836,8 +843,7 @@ a {
 
 
   .icon-friends{
-    height: 75px !important;
-    margin: 20px !important;
+    margin: 10px !important;
   }
 
 }
@@ -898,6 +904,7 @@ a {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+
   }
 
 
@@ -1015,8 +1022,8 @@ a {
   .img-services {
     height: 180px;
     border-radius: 50%;
-    margin-top: -10px;
-    margin-bottom: 10px;
+    margin-top: 10px;
+    margin-bottom:50px;
   }
 
   .contenedor-w100 {
@@ -1027,8 +1034,12 @@ a {
   }
 
   .p-text-services {
-    padding: 20px;
-    margin-top: 50px;
+    padding: 2vw;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    justify-content: center;
+    align-items: center;
+    height: auto !important;
   }
 
   .h-t-w {
@@ -1050,7 +1061,7 @@ a {
   .text-w {
     font-family: poppinsSemiBold;
     font-size: 4vw;
-    margin-left: 10px;
+    margin: 0;
     text-align: center;
     margin-top: 20px;
   }
@@ -1078,7 +1089,7 @@ a {
     flex-direction: column;
     justify-content: flex-start;
     width: 100%;
-    margin-bottom: 100px;
+    margin-bottom: 50px;
   }
 
   .contenedor-cards {
@@ -1133,13 +1144,18 @@ a {
     padding-bottom: 60px;
   }
 
+  .cont-icons{
+    justify-content: center;
+  }
+
   .friend-h {
-    height: 45vh;
+    height: auto;
     background-color: transparent;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    padding-top: 50px;
   }
 
   .centrar {
@@ -1159,7 +1175,7 @@ a {
 
   .icon-friends {
     height: 20vw;
-    margin: 20px;
+    margin: 10px;
   }
 
   .nothing {
@@ -1181,6 +1197,9 @@ a {
       #345ff1,
       #5d24d4
     ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    height: auto;
+    padding-bottom: 50px;
+  
   }
 
   .f-center {
@@ -1265,7 +1284,7 @@ a {
   .div-center-flex-column {
     display: flex !important;
     justify-content: center !important;
-    align-items: flex-start !important;
+    align-items: center!important;
   }
   .card{
     border: 0px;
@@ -1290,5 +1309,9 @@ a {
   .numerber-phone{
     font-size: 1.4rem !important;
     margin-bottom: 30px;
+  }
+
+  .img-part {
+    margin-top: 30px;
   }
 }

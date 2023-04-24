@@ -79,8 +79,8 @@ let collapse = document.getElementById("navbarNavDropdown")
 let contador = 0
 function opacity(){
   if(contador == 0){
-    collapse.style.opacity = "0"
-    setTimeout(visible,  500)
+    collapse.style.display = "none"
+    setTimeout(visible,  700)
   }else{
     return
   }
@@ -89,7 +89,7 @@ function opacity(){
 }
 
 function visible(){
-  collapse.style.opacity = "1"
+  collapse.style.display = "flex"
 }
 
 document.getElementById("btn-nos").addEventListener('click', ocularCollapce)
